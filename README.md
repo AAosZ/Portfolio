@@ -1,2 +1,5 @@
 # Portfolio
-A collection of personal works throughout my career
+Heyo~
+This repository is a collection of all my projects sorted by year.
+
+
