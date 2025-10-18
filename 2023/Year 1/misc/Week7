@@ -1,16 +1,4 @@
-def longest_chain(lst: list[int]) -> int:
-    """
-    >>> longest_chain([1, 1, 0])
-    2
-    >>> longest_chain([0, 1, 1])
-    0
-    >>> longest_chain([1, 0, 1, 1])
-    1
-    >>> longest_chain([])
-    0
-    >>> longest_chain([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1])
-    10
-    """
+def chain(lst: list[int]) -> int:
     track_1s = 0
 
     while track_1s < len(lst):
@@ -23,53 +11,7 @@ def longest_chain(lst: list[int]) -> int:
     return track_1s
 
 
-def largest_at_position(matrix: list[list[int]], row: int, col: int) -> int:
-    """
-    Returns the area of the largest rectangle whose top left corner is at
-    position <row>, <col> in <matrix>.
-
-    >>> case1 = [[1, 0, 1, 0, 0],
-    ...          [1, 0, 1, 1, 1],
-    ...          [1, 1, 1, 1, 1],
-    ...          [1, 0, 0, 1, 0]]
-    >>> largest_at_position(case1, 0, 0)
-    4
-    >>> largest_at_position(case1, 2, 0)
-    5
-    >>> largest_at_position(case1, 1, 2)
-    6
-    >>> case2 = [[0, 1, 1, 1, 0],
-    ...          [0, 1, 1, 1, 0],
-    ...          [0, 1, 1, 1, 0],
-    ...          [0, 1, 1, 0, 0],
-    ...          [0, 1, 0, 0, 0],
-    ...          [0, 1, 0, 0, 0]]
-    >>> largest_at_position(case2, 0, 1)
-    9
-    >>> largest_at_position(case2, 4, 2)
-    0
-    >>> largest_at_position(case2, 1, 2)
-    4
-    >>> case3 = [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    ...          [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1],
-    ...          [1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1],
-    ...          [0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0],
-    ...          [1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0],
-    ...          [0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1],
-    ...          [0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1],
-    ...          [1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1],
-    ...          [1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0]]
-    >>> largest_at_position(case3, 5, 3)
-    4
-    >>> largest_at_position(case3, 0, 0)
-    51
-    >>> largest_at_position(case3, 1, 0)
-    0
-    >>> largest_at_position(case3, 1, 1)
-    9
-    >>> largest_at_position(case3, 5, 5)
-    6
-    """
+def largestposition(matrix: list[list[int]], row: int, col: int) -> int:
     # track variables
     count_rows = 0
     colsper_row = [0]
@@ -106,41 +48,7 @@ def largest_at_position(matrix: list[list[int]], row: int, col: int) -> int:
     return max(area_result)
 
 
-def largest_in_matrix(matrix: list[list[int]]) -> int:
-    """
-    Returns the area of the largest rectangle in <matrix>.
-
-    The area of a rectangle is defined by number of 1's that it contains.
-
-    Precondition:
-        <matrix> will only contain the integers 1 and 0.
-
-    >>> case1 = [[1, 0, 1, 0, 0],
-    ...          [1, 0, 1, 1, 1],
-    ...          [1, 1, 1, 1, 1],
-    ...          [1, 0, 0, 1, 0]]
-    >>> largest_in_matrix(case1)
-    6
-    >>> case2 = [[0, 1, 1, 1, 0],
-    ...          [0, 1, 1, 1, 0],
-    ...          [0, 1, 1, 1, 0],
-    ...          [0, 1, 1, 0, 0],
-    ...          [0, 1, 0, 0, 0],
-    ...          [0, 1, 0, 0, 0]]
-    >>> largest_in_matrix(case2)
-    9
-    >>> case3 = [[1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1],
-    ...          [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1],
-    ...          [1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1],
-    ...          [0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0],
-    ...          [1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0],
-    ...          [0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1],
-    ...          [0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1],
-    ...          [1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1],
-    ...          [1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0]]
-    >>> largest_in_matrix(case3)
-    12
-    """
+def largestmatrix(matrix: list[list[int]]) -> int:
     # track variables
     largest_area = 0
 
@@ -156,9 +64,3 @@ def largest_in_matrix(matrix: list[list[int]]) -> int:
             largest_area = max(largest_area, area)
 
     return largest_area
-
-
-if __name__ == '__main__':
-
-    import doctest
-    doctest.testmod()
