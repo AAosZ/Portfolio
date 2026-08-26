@@ -1,12 +1,26 @@
-# Portfolio
-Heyo~ This repository is a collection of all my school projects and miscellaneous.
+## Heyo~
+This repository is a collection of links to most of my coding and statistics work.
 
-Any and all code contained in this repository are for coding practice or work related to projects done in university.
+# About me
 
-For projects done outside of the school environment, please see the list of links below.
+I am a statistics student with strong practical experience in data management and plenty of coding experience, with a genuine interest in applying quantitative and analytical methods to real-world problems. In my free time, I curate and maintain several music playlists on YouTube and occasionally write fiction for fun.
 
-TrendSeekr: A data aggregation program that collects headlines from numerous RSS feeds and processes it using NLP and AI algorithms to pick up long-term trends in the market.
-https://github.com/AAosZ/TrendSeekr
+# Main Languages
 
-OuterTune: An android developed music app with YouTube API integrated features.
-https://github.com/OuterTune/OuterTune
+- Python
+- Java
+- PostgreSQL
+- R (some proficiency)
+- A little bit of C++
+
+# Main Projects
+
+- [TrendSeekr](https://github.com/AAosZ/TrendSeekr): A data aggregation program that collects headlines from numerous RSS feeds and processes it using NLP and AI algorithms to pick up long-term trends in the market.
+
+# Contributions
+
+- [OuterTune](https://github.com/OuterTune/OuterTune): A Material 3 Music Player for Android with local file and YouTube Music API integrated features.
+
+# Miscellaneous Personal Projects
+
+# Undergraduate work
