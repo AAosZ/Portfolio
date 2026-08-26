@@ -23,6 +23,7 @@ I am a statistics student with strong practical experience in data management an
 
 ## Miscellaneous Personal Projects
 
-[Snake Game](https://github.com/AAosZ/Miscellaneous-Works/blob/master/Snake%20Game/Snake.py): A recreation of the famous snake game.
+- [Snake Game](https://github.com/AAosZ/Miscellaneous-Works/blob/master/Snake%20Game/Snake.py): A recreation of the famous snake game.
+- [Leetcode Solutions](https://github.com/AAosZ/Miscellaneous-Works/tree/master/Leetcode%20Solutions): Leetcode solutions to problems I have solved (I cannot guarantee that Leetcode has not changed the numbering of problems over the years).
 
 ## Undergraduate work
