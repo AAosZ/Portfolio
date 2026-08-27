@@ -29,6 +29,6 @@ I am a statistics student with strong practical experience in data management an
 ## Undergraduate work
 
 - Year 4
-- Year 3
+- [Year 3](https://github.com/AAosZ/Undergraduate-Works/tree/master/Year%203)
 - Year 2
 - [Year 1](https://github.com/AAosZ/Undergraduate-Works/tree/master/Year%201/Winter%20Semester)
