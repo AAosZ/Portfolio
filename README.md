@@ -17,14 +17,14 @@ I am a statistics student with strong practical experience in data management an
 
 - [TrendSeekr](https://github.com/AAosZ/TrendSeekr): A data aggregation program that collects headlines from numerous RSS feeds and processes it using NLP and AI algorithms to pick up long-term trends in the market.
 
-## Contributions
-
-- [OuterTune](https://github.com/OuterTune/OuterTune): A Material 3 Music Player for Android with local file and YouTube Music API integrated features.
-
 ## Miscellaneous Personal Projects
 
 - [Snake Game](https://github.com/AAosZ/Miscellaneous-Works/blob/master/Snake%20Game/Snake.py): A recreation of the famous snake game.
 - [Leetcode Solutions](https://github.com/AAosZ/Miscellaneous-Works/tree/master/Leetcode%20Solutions): Leetcode solutions to problems I have solved (I cannot guarantee that Leetcode has not changed the numbering of problems over the years).
+
+## Contributions
+
+- [OuterTune](https://github.com/OuterTune/OuterTune): A Material 3 Music Player for Android with local file and YouTube Music API integrated features.
 
 ## Undergraduate work
 
