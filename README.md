@@ -27,3 +27,8 @@ I am a statistics student with strong practical experience in data management an
 - [Leetcode Solutions](https://github.com/AAosZ/Miscellaneous-Works/tree/master/Leetcode%20Solutions): Leetcode solutions to problems I have solved (I cannot guarantee that Leetcode has not changed the numbering of problems over the years).
 
 ## Undergraduate work
+
+Year 4
+Year 3
+Year 2
+[Year 1](https://github.com/AAosZ/Undergraduate-Works/tree/master/Year%201/Winter%20Semester)
