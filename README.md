@@ -16,6 +16,7 @@ I am a statistics student with strong practical experience in data management an
 ## Main Projects
 
 - [TrendSeekr](https://github.com/AAosZ/TrendSeekr): A data aggregation program that collects headlines from numerous RSS feeds and processes it using NLP and AI algorithms to pick up long-term trends in the market.
+- [Painting Classification AI Model](https://github.com/AAosZ/Undergraduate-Works/blob/master/Year%203/Coding/README.md): A multi-class perceptron model that uses survey data taken from about 500 students on 3 paintings, trained to accurately classify which painting survey data may refer to
 
 ## Miscellaneous Personal Projects
 
